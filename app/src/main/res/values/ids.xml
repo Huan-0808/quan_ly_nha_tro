@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="edtPrice" type="id" />
+    <item name="edtStatus" type="id" />
+    <item name="btnSave" type="id" />
+    <item name="edtName" type="id" />
+</resources>
