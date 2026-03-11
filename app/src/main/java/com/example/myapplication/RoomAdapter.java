@@ -42,8 +42,6 @@ public class RoomAdapter extends RecyclerView.Adapter<RoomAdapter.RoomViewHolder
         }else{
             holder.tvStatus.setTextColor(Color.RED);
         }
-
-        // click phòng để sửa
         holder.itemView.setOnClickListener(v -> {
 
             Intent intent = new Intent(v.getContext(), EditRoomActivity.class);
@@ -70,4 +68,5 @@ public class RoomAdapter extends RecyclerView.Adapter<RoomAdapter.RoomViewHolder
             tvStatus = itemView.findViewById(R.id.tvStatus);
         }
     }
+
 }
