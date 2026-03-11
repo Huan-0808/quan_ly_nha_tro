@@ -1,5 +1,7 @@
 package com.example.myapplication;
-
+/*import java.util.*;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;*/
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -39,4 +41,5 @@ public class AddRoomActivity extends AppCompatActivity {
         });
 
     }
+
 }
